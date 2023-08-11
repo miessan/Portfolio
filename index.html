@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <!-- AOS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+  />
+  <!-- Swiper -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.css"
+  />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+    <title>Mon Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="navigation">
+        <div class="nav-center d-flex">
+          <h2 class="logo d-flex">
+            <span class="icon color"><i class="bx bxl-facebook"></i></span>
+            <span class="icon"><i class="bx bxl-github"></i></span>
+            <span class="icon color" style="background-color: rgb(67, 174, 240);"><i class="bx bxl-linkedin"></i></span>
+            <span class="icon color " style="color: red;background-color: white;"  ><i class="bx bxl-youtube"></i></span>
+
+          </h2>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="#header" class="nav-link scroll-link">Acceuil</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link scroll-link">A-propos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link scroll-link">Comptence</a>
+            </li>
+
+
+            <!-- Theme -->
+            <li class="nav-item theme-icon">
+              <i class="bx bx-moon"></i>
+            </li>
+
+            <!-- Close Button -->
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+          </ul>
+
+          <!-- theme -->
+          <div class="theme theme-icon">
+            <i class="bx bx-moon"></i>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Overlay -->
+      <div class="overlay"></div>
+
+      <!-- Hero Image -->
+      <img src="images/hero.png" class="hero-img" alt="" />
+      <!-- Social Links -->
+      <div class="socials">
+
+      </div>
+
+      <!-- Color Control -->
+      <div class="control">
+        <div class="widget d-flex">
+          <i class="bx bxs-cog"></i>
+        </div>
+        <div class="colors">
+          <span data-id="#ff6174"></span>
+          <span data-id="#42caff"></span>
+          <span data-id="#7462e1"></span>
+          <span data-id="#ff4600"></span>
+          <span data-id="#ce00ff"></span>
+        </div>
+      </div>
+
+      <!-- Hero -->
+
+      <div class="content" >
+        <span>Salut</span>
+        <h1>Je suis Mr. Miessan</h1>
+        <h1 class>Devellopeur d'application</h1>
+       <h1> <span id="type1"></span></h1>
+        <p>
+          <span>
+            <p> En tant que développeur d'applications web et mobile,</p>
+            <p> je suis passionné par la création de solutions numériques</p>
+            <p>  qui transcendent l'imagination et se concrétisent en réalité.</p>
+            <p>Mon parcours dans le monde du développement m'a permis d'acquérir une expertise </p>
+            <p>approfondie dans les technologies les plus récentes et de développer des compétences </p>
+            <p>solides dans la conception, la programmation et l'optimisation d'applications.</p>
+
+            </span>
+        </p>
+        <a href="mailto:miessan02@gmail.com" class="btn btn-hero">Envoyez un email</a>
+      </div>
+    </header>
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-center d-flex">
+
+          <div class="col-2" data-aos="fade-left" data-aos-duration="1300">
+            <div class="title">
+
+              <h1>A propos de moi </h1>
+            </div>
+
+            <h3>Une histoire de travail acharné et de persévérance</h3>
+            <p>En tant que développeur passionné d'application web et mobile, détenteur d'un Bac + 4 Obtenue a l'institue de technologie d'Abidjan (Groupe ITA)  en science informatique en 2021</p>
+            <h3>Contact</h3>
+
+            <div class="row">
+
+              <a href="mailto:miessan02@gmail.com" class="btn">Envoyez un email</a>
+              <a href="images/CV_2023052123550177 (1).pdf"  download class=" btn outline">Telecharger Mon CV</a>
+            </div>
+          </div>
+          <div class="col-1" data-aos="fade-right" data-aos-duration="1300">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill-rule: evenodd;
+                  }
+                </style>
+              </defs>
+              <path
+                class="cls-1"
+                d="M348.966,185.028C352.5,133.656,390.75,98.4,408.679,84.919c65.653-49.37,156.979-31.683,212.511,6.147,66.582,45.359,84.381,124.626,87.814,168.6,11.7,149.93-115.48,312.737-230.073,307.349-36.811-1.731-88.125-21.605-104.5-62.348-21.744-54.1,38.923-101.571,32.491-167.725C400.873,274.711,344.529,249.615,348.966,185.028Z"
+              />
+
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="title">
+
+        <h1>Comptenece</h1>
+      </div>
+
+      <div class="row container">
+        <div class="col" data-aos="fade-right" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-package"></i></div>
+          <span>Methode D'analyse</span>
+          <h3>UML</h3>
+          <p>UML est un outil puissant pour la modélisation de systèmes logiciels, qui aide à améliorer la communication, la qualité du code, la compréhension du système et la documentation. Cela conduit à des projets logiciels mieux gérés, mieux compris et plus réussis</p>
+        </div>
+
+        <div class="col" data-aos="fade-up" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-analyse"></i></div>
+
+          <h3>Merise</h3>
+          <p>
+            Méthode de conception de bases de données et de systèmes d'information. Merise est un acronyme pour "Méthode d'Étude et de Réalisation Informatique pour les Systèmes d'Entreprise" et elle est largement utilisée pour structurer et organiser la conception des systèmes d'information.
+          </p>
+        </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-data"></i></div>
+
+          <h3>SQL</h3>
+          <p>
+            SQL est un langage puissant et polyvalent, utilisé dans une grande variété d'applications et de systèmes de gestion de bases de données (DBMS) tels que MySQL, PostgreSQL, Microsoft SQL Server, Oracle, SQLite, etc. Il est essentiel pour les développeurs, les administrateurs de bases de données et les professionnels travaillant avec des données relationnelle
+          </p>
+        </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-data"></i></div>
+
+          <h3>Oracle</h3>
+          <p>
+            Oracle est l'un des principaux éditeurs de logiciels spécialisés dans les systèmes de gestion de bases de données (SGBD). Leur produit phare est Oracle Database, qui est un SGBD relationnel très populaire utilisé dans le monde entier pour stocker et gérer des données.
+          </p>
+        </div>
+        <div class="col" data-aos="fade-down" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-data"></i></div>
+
+          <h3>MySQL</h3>
+          <p>
+            MySQL est un système de gestion de base de données relationnelle (SGBDR) open-source très populaire. Il est largement utilisé dans le développement web et dans de nombreuses applications pour stocker et gérer des données de manière efficace et sécurisée.          </p>
+        </div>
+        <div class="col" data-aos="fade-right" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-data"></i></div>
+
+          <h3>PostgreSQL</h3>
+          <p>
+            En raison de ses fonctionnalités avancées, de sa flexibilité, de sa performance et de sa conformité aux normes SQL, PostgreSQL est largement utilisé dans les environnements professionnels, les projets open-source et les applications web et d'entreprise. Il est considéré comme l'une des options les plus puissantes pour les systèmes de gestion de bases de données relationnelles.
+          </p>
+        </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bxl-html5"></i></div>
+          <h3>HTML</h3>
+          <p>
+            HTML est une compétence fondamentale pour les développeurs web, car c'est la base de tout site web. Avec l'utilisation de CSS et JavaScript, HTML permet de créer des sites web riches en fonctionnalités et interactifs pour les utilisateurs.          </p>
+        </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bxl-css3"></i></div>
+          <h3>CSS</h3>
+          <p>
+            CSS est essentiel pour créer des sites web esthétiquement attrayants et pour fournir une expérience utilisateur agréable. En combinant HTML pour la structure du contenu et CSS pour la présentation, les développeurs peuvent personnaliser l'apparence de leurs pages web et les adapter aux besoins spécifiques de chaque projet </p>
+
+          </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bxl-javascript"></i></div>
+          <h3>JavaScript</h3>
+          <p>
+            JavaScript est devenu un élément essentiel du développement web moderne, permettant d'améliorer l'expérience utilisateur, de créer des applications web interactives et réactives, et de rendre les pages web plus dynamiques et attrayantes. Il continue d'évoluer avec de nouvelles fonctionnalités et des améliorations pour répondre aux besoins croissants des développeurs web.
+          </p>
+          </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bxl-angular"></i></div>
+          <h3>ANGULAR</h3>
+          <p>
+            Angular est largement adopté par les développeurs web pour créer des applications web performantes, évolutives et réactives. Sa structure modulaire, ses fonctionnalités avancées et sa communauté active en font un choix populaire pour les projets de développement web modernes
+          </p>
+          </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx"><img src="images/Laravel.png" alt=""></i></div>
+          <h3>LARAVEL</h3>
+          <p>
+            LARAVEL est utilisé pour le développement d'applications web de toutes tailles, allant des projets personnels aux grandes applications d'entreprise. Grâce à ses fonctionnalités et à sa facilité d'utilisation, Laravel est considéré comme l'un des frameworks PHP les plus populaires et les plus performants.
+           </p>
+          </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bxl-spring-boot"></i></div>
+          <h3>Spring boot</h3>
+          <p>
+            Spring Boot est largement utilisé pour le développement d'applications Java, en particulier pour les projets d'entreprise et les applications web. Sa simplicité, sa flexibilité et son intégration transparente avec d'autres projets Spring en font un choix populaire pour les développeurs Java. De plus, la forte communauté de développeurs et les ressources disponibles rendent Spring Boot un excellent framework pour accélérer le processus de développement          </p>
+          </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bxl-android"></i><i class="bx bxl-apple"></i></div>
+          <h3>Flutter</h3>
+          <p>
+            Flutter est un framework open-source développé par Google, utilisé pour créer des applications mobiles multiplateformes (Android et iOS) à partir d'un seul code source. Il est basé sur le langage de programmation Dart et offre une approche réactive et déclarative pour la création d'interfaces utilisateur
+           </p>
+          </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bxl-github"></i></div>
+          <h3>Github</h3>
+          <p>
+
+            GitHub est une plateforme web basée sur Git, un système de contrôle de version distribué, qui permet aux développeurs de collaborer sur des projets logiciels et de gérer efficacement le code source. Il est largement utilisé dans la communauté de développement de logiciels open-source, mais il est également utilisé pour le développement de projets privés dans de nombreuses entreprises           </p>
+          </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx " ><img src="images/docker.png" alt="" class="bx"></i></div>
+          <h3>Docker</h3>
+          <p>
+            Docker est devenu un outil incontournable pour les développeurs et les équipes d'infrastructure pour la gestion des applications et la livraison continue. Il offre une approche efficace et reproductible pour le déploiement d'applications, la gestion des dépendances et la résolution des problèmes liés aux différences d'environnement entre le développement et la production
+          </p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Porfolio -->
+    <section class="section portfolio" id="portfolio">
+      <div class="row container">
+
+
+        <div class="filter-btns d-flex">
+         
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Testimonials -->
+
+
+    <!-- Blog -->
+
+
+<!-- Footer -->
+<footer>
+  <p>@copyright 2023 Mr Miessan</p>
+</footer>
+    <!-- Swiper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Typeit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+  </body>
+</html>
